@@ -1,17 +1,15 @@
 # Yelp Review Text and Photo Analysis
 
-In this project, I perform image classification for images of Yelp reviews as well as
-the identification of topics of dissatisfaction. 
+In this project, I perform **image classification for images of Yelp reviews as well as
+the identification of topics of dissatisfaction**. 
 
-The dataset used is the [Yelp Dataset](https://www.yelp.com/dataset).
+The dataset used is the [Yelp Dataset](https://www.yelp.com/dataset) composed of 7M 
+text reviews as well as 200k pictures.
 
 This image classification model uses transfer learning with Google's MobileNetV2 model
 to identify different classes of pictures.
 
 The topic identification part of the project uses the Bertopic package.
-
-The final part of the project is to use the Yelp API to update our topic identification
-model.
 
 ## Useful Links
 
@@ -20,16 +18,26 @@ model.
 
 ## Screenshots
 
-### Topic Identification
+### Bertopic framework
+![Bertopic](img/bertopic.png)
+
+### Topics of Dissatisfaction
 ![Topics of dissatisfaction](img/topics.png)
+
+### Topic Word Clouds
+![Dissatisfaction](img/dissatisfaction.png)
+![Rude Service](img/rude_service.png)
+
+### Review Embeddings
+![Review embeddings](img/review_embeddings.png)
 
 ### Image preprocessing
 
 #### Before equalization
-![Raw Image](img/before_eq.png)
+![Raw Image](img/before_equalization.png)
 
 #### After equalization
-![Equalized_image](img/after_eq.png)
+![Equalized_image](img/after_equalization.png)
 
 
 ## Libraries / Packages Used
